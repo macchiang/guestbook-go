@@ -1,0 +1,11 @@
+version: '3'
+services:
+  guestbook:
+    build: .
+    ports:
+      - "4000:4000"
+    environment:
+      - "GUESTBOOK_REDIS_HOST=redis"
+      - "GUESTBOOK_REDIS_PORT=6379"
+  redis:
+    image: "redis:alpine"
