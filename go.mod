@@ -8,11 +8,11 @@ require (
 	github.com/labstack/gommon v0.0.0-20170925052817-57409ada9da0 // indirect
 	github.com/mattn/go-colorable v0.0.9 // indirect
 	github.com/mattn/go-isatty v0.0.3 // indirect
+	github.com/onsi/ginkgo v1.16.5 // indirect
+	github.com/onsi/gomega v1.27.1 // indirect
 	github.com/satori/go.uuid v1.2.0
+	github.com/stretchr/testify v1.8.1 // indirect
 	github.com/urfave/cli v1.21.0
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasttemplate v0.0.0-20170224212429-dcecefd839c4 // indirect
-	golang.org/x/crypto v0.0.0-20180111101123-5f55bce93ad2 // indirect
-	golang.org/x/sys v0.0.0-20180110071738-810d70003458 // indirect
-	gopkg.in/urfave/cli.v1 v1.20.0 // indirect
 )
